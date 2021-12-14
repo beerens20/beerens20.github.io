@@ -14,7 +14,7 @@ Finally
 #This code fires at the end no matter what
 
 raise
-#This allows us to raise our own exception
+#This allows us to raise our own exception. Can be used outside of the Try/Except/Else/Finally
 ``
 
 Code Example
