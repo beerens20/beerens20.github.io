@@ -17,3 +17,17 @@ raise
 #This allows us to raise our own exception
 ``
 
+Code Example
+try:
+  file = open("a_file.txt")
+  a_dictionary = {"key": "value"}
+  print(a_dictionary["key"])
+except FileNotFoundError:
+  file = open("a_file.txt", "w") #If a_file.txt does not exist for the Try statement this line creates it then writes to it
+  file.write("Something")
+else:
+  content = file.read() #If a_file.txt exists in the Try statement then this ELSE fires reading the file into variable content
+  print(content)
+finally:
+  raise KeyError("This is an error that I made up")
+  #Causes an error to raise regardless
