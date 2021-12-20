@@ -1,6 +1,6 @@
 pages for notes about python exceptions
 
-```buildoutcfg
+```
     Try
     #This is the code that has the potential to faile
     
@@ -18,7 +18,7 @@ pages for notes about python exceptions
 ```
 ---
 Code Example - expected data doc is not present
-```buildoutcfg
+```
     try:
       file = open("a_file.txt")
       a_dictionary = {"key": "value"}
@@ -35,7 +35,7 @@ Code Example - expected data doc is not present
 ```
 ---
 #### Code Example - function fails to expected value
-```buildoutcfg
+```
     fruits = ["Apple", "Pear", "Orange"]
     
     def make_pie(index):
