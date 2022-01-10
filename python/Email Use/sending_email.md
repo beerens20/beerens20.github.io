@@ -26,7 +26,7 @@ my_email = "dev.beerens20@gmail.com"
 my_password = "Password1234"
 
 (1)with smtplib.SMTP("smtp.gmail.com") as connection:
-    (2)connection.startls()
+    (2)connection.starttls()
     (3)connection.login(user=my_email, password=my_password)
     (4)connection.sendmail(
         from_addr=my_email,
