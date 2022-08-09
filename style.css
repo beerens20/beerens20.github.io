@@ -31,6 +31,7 @@ hr {
   font-weight: 700;
   border-radius: 300px;
   text-transform:  uppercase;
+  box-shadow: none !important;
 }
 
 .btn-primary {
@@ -43,6 +44,7 @@ hr {
   border-color: #ee4b08;
   border-width:  4px;
 }
+
 
 .btn-xl {
   padding:  1rem 2rem;
